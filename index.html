@@ -28,6 +28,13 @@
     <header>
       <div class="main-container">
         <div class="nav">
+          <div class="clock">
+            <span id="hrs">00</span>
+            <span>:</span>
+            <span id="min">00</span>
+            <span>:</span>
+            <span id="sec">00</span>
+          </div>
           <div class="logo">
             <img src="img/moon.png" alt="Mode" id="icon" />
           </div>
@@ -205,11 +212,11 @@
             <p>
               Here you can see a summary of my skills technical or click
 
-                <a
-                  href="https://drive.google.com/file/d/1Uomu1dEgOcr7RXToxV3KBoLiIrORwMMX/view?usp=sharing"
-                  target="_blank">here</a
-                >
-              </i>
+              <a
+                href="https://drive.google.com/file/d/1Uomu1dEgOcr7RXToxV3KBoLiIrORwMMX/view?usp=sharing"
+                target="_blank"
+                >here</a
+              >
             </p>
 
             <div class="skills-list">
@@ -226,7 +233,7 @@
                 <li>Quality Control</li>
                 <li>Quality Assurance</li>
                 <li>Administration</li>
-                <li>Cliper</li>
+                <li>Caliper</li>
                 <li>Screw Micrometer</li>
               </ul>
             </div>
@@ -276,9 +283,21 @@
         } else {
           icon.src = "img/moon.png";
         }
-
-      
       };
+    </script>
+
+    <script>
+      let hrs = document.getElementById("hrs");
+      let min = document.getElementById("min");
+      let src = document.getElementById("sec");
+
+      setInterval(() => {
+        let currentTime = new Date();
+
+        hrs.innerHTML = currentTime.getHours();
+        min.innerHTML = currentTime.getMinutes();
+        sec.innerHTML = currentTime.getSeconds();
+      }, 1000);
     </script>
   </body>
 </html>

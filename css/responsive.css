@@ -60,12 +60,8 @@
   }
 
   .hero-left {
-    text-align: center;
-    padding: 3.5rem;
-  }
-
-  .hero-left .pre-title {
-    margin: 0 auto;
+    padding: 3.5rem auto;
+    margin-top: 3.5rem;
   }
 
   .hero-name {
@@ -139,34 +135,36 @@
     text-align: justify;
   }
 
-  /* .footer-icon {
-    width: 15px;
-    height: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0.6rem auto;
-  } */
-
-  .experience p {
-    text-align: left;
-    font-size: 0.9rem;
-    margin-top: 10px;
-  }
-
   .experience h6 {
     margin: 0 0;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     letter-spacing: 0;
   }
 
+  .experience-info p {
+    font-size: 14px;
+  }
+
   .experience {
-    padding: 1rem 0;
+    padding: 0.5rem 0;
   }
 
   .experience-title h4 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-bottom: 0;
+  }
+
+  .experience-tags {
+    margin: 1rem 0 0;
+  }
+
+  .experience-tags h5 {
+    margin-top: 0.2rem;
+  }
+
+  .experience-tags div {
+    padding: 0.3rem;
+    margin-top: 0.2rem;
   }
 
   .experiences-icon img {

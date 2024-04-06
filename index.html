@@ -123,7 +123,11 @@
             <div class="experience-info">
               <div class="experience-title">
                 <h4>Laboratory Technician</h4>
-                <a href="https://elitech.id/" class="portfolio-link">
+                <a
+                  href="https://elitech.id/"
+                  class="portfolio-link"
+                  target="_blank"
+                >
                   <i class="ri-building-3-fill"></i>
                 </a>
               </div>
@@ -149,7 +153,11 @@
             <div class="experience-info">
               <div class="experience-title">
                 <h4>Document Controller</h4>
-                <a href="https://unair.ac.id/" class="portfolio-link">
+                <a
+                  href="https://unair.ac.id/"
+                  class="portfolio-link"
+                  target="_blank"
+                >
                   <i class="ri-government-fill"></i>
                 </a>
               </div>
@@ -294,9 +302,17 @@
       setInterval(() => {
         let currentTime = new Date();
 
-        hrs.innerHTML = currentTime.getHours();
-        min.innerHTML = currentTime.getMinutes();
-        sec.innerHTML = currentTime.getSeconds();
+        let h = currentTime.getHours();
+        let m = currentTime.getMinutes();
+        let s = currentTime.getSeconds();
+
+        h = h < 10 ? `0` + h : h;
+        m = m < 10 ? `0` + m : m;
+        s = s < 10 ? `0` + s : s;
+
+        hrs.innerHTML = h;
+        min.innerHTML = m;
+        sec.innerHTML = s;
       }, 1000);
     </script>
   </body>

@@ -136,6 +136,7 @@ a {
   position: relative;
   width: 20px;
   font-weight: bold;
+  opacity: 0.25;
 }
 
 .logo img {

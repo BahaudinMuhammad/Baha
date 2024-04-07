@@ -88,6 +88,9 @@
 @media screen and (max-width: 640px) {
   /* Title */
 
+  :root {
+    --sectionPadding: 2rem 0;
+  }
   .section-title {
     font-size: 1.2rem;
   }

@@ -325,6 +325,7 @@ nav ul li a {
   align-items: center;
   gap: 2rem;
   margin-bottom: 2px 0;
+  justify-content: space-between;
 }
 
 .exp-info {

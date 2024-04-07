@@ -136,7 +136,7 @@ a {
   position: relative;
   width: 20px;
   font-weight: bold;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 .logo img {
@@ -202,7 +202,7 @@ nav ul li a {
 }
 
 .hero-name span {
-  color: var(--primaryIconColor);
+  color: var(--primaryIconColorHover);
 }
 
 .vote {
@@ -322,11 +322,17 @@ nav ul li a {
   gap: 1.5rem;
 }
 
+.experiences-icon {
+  display: flex;
+  padding: 0 1.5rem;
+  transform: translateY(10px);
+}
 .experiences-icon img {
   width: 20%;
   aspect-ratio: 1/1;
   object-fit: cover;
   border-radius: 50%;
+  align-items: center;
 }
 
 /* Portfolio */

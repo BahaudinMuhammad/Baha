@@ -10,8 +10,6 @@
   --primaryIconColor: #0ea5e9;
   --primaryIconColorHover: #3b82f6;
 
-  --sectionPadding: 6rem 0;
-
   --itemBorderRadius: 0.7rem;
 }
 
@@ -100,6 +98,7 @@
     margin-top: 1rem;
     flex-direction: column;
     gap: 12px;
+    margin-bottom: 1rem;
   }
 
   .vote i {
@@ -136,6 +135,8 @@
 
   .hero-left p {
     text-align: justify;
+    font-size: 14px;
+    line-height: 1.3rem;
   }
 
   .experience h6 {
@@ -146,6 +147,7 @@
 
   .experience-info p {
     font-size: 14px;
+    line-height: 1.3rem;
   }
 
   .experience {
@@ -170,6 +172,9 @@
     margin-top: 0.2rem;
   }
 
+  .experiences-icon {
+    transform: translateY(14px);
+  }
   .experiences-icon img {
     width: 15%;
     aspect-ratio: 1/1;
@@ -182,6 +187,11 @@
   }
   .skills-right p {
     text-align: justify;
+  }
+
+  .skills-right ul li {
+    font-size: 14px;
+    line-height: 1.4rem;
   }
 
   .social-links a i,
@@ -206,6 +216,6 @@
   }
 
   .hero-right img {
-    width: 40%;
+    width: 50%;
   }
 }

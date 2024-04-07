@@ -323,9 +323,9 @@ nav ul li a {
 .experience-title {
   display: flex;
   align-items: center;
-  gap: 2rem;
+  gap: 1rem;
   margin-bottom: 2px 0;
-  justify-content: space-between;
+  width: fit-content;
 }
 
 .exp-info {
@@ -338,7 +338,7 @@ nav ul li a {
   display: flex;
   padding: 0 1rem;
   transform: translateY(10px);
-  gap: 2rem;
+  gap: 1rem;
 }
 .experiences-icon img {
   width: 20%;
